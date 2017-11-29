@@ -1,0 +1,9 @@
+Title: Using Python to Search NASA's Astrophysics Archives
+When: Sunday, January, 2018 10:00-11:30am
+Where: Not yet known
+Fee: $35
+Registration: https://aas.org/meetings/aas231/registration
+
+Are we required to register if we are presenters? Yes.
+
+Abstract: NASA's Astrophysics Archives preserve many terabytes of multiwavelength images, catalogs, and spectra. While many astronomers are familiar with the web tools that are convenient for searching and visualizing these data, this workshop will introduce participants to the command-line data access tools that are becoming increasingly popular. We will use python to work through science scenarios that combine multiwavelength data from the HEASARC, IRSA, NED, and MAST. Workshop organizers will also be available to help participants access NASA data sets for use on their own projects.
