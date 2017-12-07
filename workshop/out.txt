@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SED data query output
+
+  Produced by the NASA/IPAC Extragalactic Database/Caltech.
+  Copyright (C) 2011,  California Institute of Technology.
+  U.S. Government support under contract NAS7-03001 is acknowledged.
+-->
+<VOTABLE xmlns="http://www.ivoa.net/xml/VOTable/v1.2"
+  xmlns:spec="http://www.ivoa.net/xml/Spectrum/Spectrum-1.01.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.2  http://www.ivoa.net/xml/VOTable/VOTable-1.2.xsd
+                                 http://www.ivoa.net/xml/SSA/v0.4 http://www.ivoa.net/xml/SSA/SSA-v0.4.xsd"
+>
+<DEFINITIONS>
+<COOSYS ID="J2000" equinox="2000." epoch="2000." system="eq_FK5"/>
+</DEFINITIONS>
+<RESOURCE utype="spec:Sed">
+<DESCRIPTION>Result of NED Data Request of Spectrum datasets for the objects, returned by NED. Date and Time of the Query: Wed Dec  6 18:07:13 2017</DESCRIPTION>
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="REQUEST" value="queryData"/>
+<INFO name="FORMAT" value=""/>
+<INFO name="BAND" value=""/>
+<INFO name="TIME" value=""/>
+<INFO name="POS" value="22.438,-17.2"/>
+<INFO name="SIZE" value="0.02"/>
+<INFO name="TableRows" value="1"/>
+<LINK content-role="query" content-type="char" href="/services/querySED?REQUEST=queryData&amp;FORMAT=&amp;BAND=&amp;TIME=&amp;POS=22.438,-17.2&amp;SIZE=0.02"/>
+<TABLE ID="NED_SED_DISCOVERY_QUERY_RESULT" name="NED_SED_DISCOVERY_QUERY_RESULT">
+<DESCRIPTION>List of NED's objects in POS=22.438,-17.2 (Degrees in J2000.0) , Radius=0.02 (in Degrees) with number of Photometric Points </DESCRIPTION>
+<FIELD ID="ObjectName" name="ObjectName" datatype="char" ucd="meta.id;src" utype="spec:Spectrum.Data.Target.Name" arraysize="*">
+<DESCRIPTION>Canonical NED's name for the extragalactic object.</DESCRIPTION>
+</FIELD>
+<FIELD ID="NumberPhotometricPoints" name="NumberPhotometricPoints" datatype="int" ucd="meta.number" utype="spec:Spectrum.Data.Number">
+<DESCRIPTION>Number of Photometric points found in NED for the object at that time.</DESCRIPTION>
+</FIELD>
+<FIELD ID="ACREF" name="URL_TO_GET_NED_Photometry" datatype="char" ucd="meta.ref.url" utype="spec:Spectrum.Data.URL" arraysize="*">
+<DESCRIPTION>URL to the NED service to get Photometric Data for the object in VOTable format.</DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+<TR>
+<TD>GALEXASC J012940.87-171139.4  </TD>
+<TD>3</TD>
+<TD><![CDATA[/services/accessSED?REQUEST=getData&TARGETNAME=GALEXASC J012940.87-171139.4  ]]></TD>
+</TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
